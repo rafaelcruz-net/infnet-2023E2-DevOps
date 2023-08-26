@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerInfnetDevOpsSample", "DockerInfnetDevOpsSample\DockerInfnetDevOpsSample.csproj", "{F4FDE53E-7E3E-439E-9A8B-8D15B30253E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{5B59CA9B-9678-4E03-BE5C-1CEC56C8A08F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F4FDE53E-7E3E-439E-9A8B-8D15B30253E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4FDE53E-7E3E-439E-9A8B-8D15B30253E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4FDE53E-7E3E-439E-9A8B-8D15B30253E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B59CA9B-9678-4E03-BE5C-1CEC56C8A08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B59CA9B-9678-4E03-BE5C-1CEC56C8A08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B59CA9B-9678-4E03-BE5C-1CEC56C8A08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B59CA9B-9678-4E03-BE5C-1CEC56C8A08F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

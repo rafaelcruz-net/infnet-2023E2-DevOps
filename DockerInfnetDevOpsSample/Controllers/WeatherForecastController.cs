@@ -18,6 +18,8 @@ namespace DockerInfnetDevOpsSample.Controllers
             _logger = logger;
         }
 
+        public WeatherForecastController() { }
+
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
