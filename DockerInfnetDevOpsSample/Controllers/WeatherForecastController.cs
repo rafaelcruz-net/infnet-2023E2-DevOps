@@ -24,5 +24,19 @@ namespace DockerInfnetDevOpsSample.Controllers
             })
             .ToArray();
         }
+
+        [HttpPost(Name = "PostWeatherForecast")]
+        public WeatherForecast Post()
+        {
+            var count = 0;
+
+            return new WeatherForecast
+            {
+                Date = DateTime.Now,
+                TemperatureC = Random.Shared.Next(-20, 55) / count,
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            };
+        }
+
     }
 }
